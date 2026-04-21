@@ -1,0 +1,20 @@
+KYC Overview
+
+KYC (Know Your Customer) is a process used by banks to verify the identity and address of customers. It is mandatory for opening and maintaining a bank account.
+
+Purpose:
+- Prevent fraud and illegal activities
+- Ensure secure banking services
+
+Common Documents Required:
+- Identity Proof (Aadhaar Card, PAN Card, Passport, Voter ID)
+- Address Proof (Aadhaar Card, Utility Bill, Passport)
+
+Process:
+1. Visit the bank or apply online
+2. Submit KYC documents
+3. Bank verifies the documents
+4. KYC is approved and account becomes active
+
+Note:
+The exact document list may vary depending on bank policies and regulatory guidelines.

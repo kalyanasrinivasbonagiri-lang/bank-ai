@@ -1,0 +1,5 @@
+Balance Checking Guidance
+
+Customers may check account balance using bank-approved channels such as ATM balance enquiry, passbook update, branch enquiry, or digital channels if the bank provides them.
+
+BankAI cannot check any real balance. It can only explain the general process if the source documents mention it.

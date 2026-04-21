@@ -1,0 +1,38 @@
+[project]
+name = "bank-ai"
+version = "0.1.0"
+description = "BankAI is a Flask-based banking guidance assistant with RAG, OCR, and session chat."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=0.5.5",
+    "flask>=3.0.0",
+    "groq>=0.11.0",
+    "langchain>=0.3.0",
+    "langchain-chroma>=0.1.2",
+    "langchain-community>=0.3.0",
+    "langchain-core>=0.3.0",
+    "langchain-huggingface>=0.1.0",
+    "langchain-text-splitters>=0.3.0",
+    "pillow>=10.4.0",
+    "pymupdf>=1.24.10",
+    "python-dotenv>=1.0.1",
+    "sentence-transformers>=3.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.2",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "src",
+]
+testpaths = [
+    "tests",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

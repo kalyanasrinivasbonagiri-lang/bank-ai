@@ -1,0 +1,8 @@
+Deposit Slip Field Explanation
+
+- Date: the day of deposit submission
+- Account Number: the target account number
+- Account Holder Name: the name linked to the account
+- Amount: the cash or cheque amount
+- Denomination Details: number of notes by value, if the slip asks for it
+- Depositor Signature: signature of the person submitting the deposit when required

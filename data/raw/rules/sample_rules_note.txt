@@ -1,0 +1,16 @@
+Banking Rules and Guidelines
+
+Customers should always follow the official instructions provided by their bank for all processes, including deposits, withdrawals, KYC, and account management.
+
+Key Points:
+- Banking rules may vary depending on the bank, branch, and account type.
+- Certain processes may have limits (e.g., cash deposit limits, withdrawal limits).
+- Specific documents may be mandatory based on the transaction or service.
+
+Examples:
+- KYC documents are required for account opening.
+- PAN card may be needed for high-value transactions.
+- Withdrawal limits may differ between ATM and branch transactions.
+
+Note:
+Always verify the latest rules with the bank's official website or customer support, as policies may change over time.

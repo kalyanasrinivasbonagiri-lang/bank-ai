@@ -1,0 +1,9 @@
+ATM Usage Guidance
+
+1. Insert or tap the card if your ATM supports it.
+2. Enter the PIN carefully without sharing it.
+3. Choose the required service such as cash withdrawal or balance enquiry.
+4. Confirm the amount if withdrawing cash.
+5. Collect the card, cash, and receipt before leaving.
+
+Safety Tip: Do not share your PIN and cover the keypad while entering it.

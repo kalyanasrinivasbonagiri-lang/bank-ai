@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="app-frame">
+    <aside class="sidebar">
+        <div class="brand-card">
+            <div class="brand-mark">B</div>
+            <div>
+                <p class="eyebrow">Banking Guidance AI</p>
+                <h1>{{ app_name }}</h1>
+            </div>
+        </div>
+
+        <div class="sidebar-card">
+            <h2>Assistant Scope</h2>
+            <p>{{ disclaimer }}</p>
+        </div>
+
+        <div class="sidebar-card">
+            <div class="card-head">
+                <h2>Sample Prompts</h2>
+                <span class="muted-badge">RAG Ready</span>
+            </div>
+            <div class="prompt-list">
+                {% for prompt in sample_prompts %}
+                <button class="prompt-chip" type="button" data-prompt="{{ prompt }}">{{ prompt }}</button>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="sidebar-card">
+            <div class="card-head">
+                <h2>Upload Document</h2>
+                <span class="muted-badge">OCR</span>
+            </div>
+            <p>Upload a banking form, PDF, or image for document-grounded explanation.</p>
+            <form class="upload-form" method="post" action="{{ url_for('web.upload') }}" enctype="multipart/form-data">
+                <label class="file-drop" for="file">
+                    <span class="file-drop-icon">+</span>
+                    <span>Select a file to analyze</span>
+                </label>
+                <input id="file" type="file" name="file" accept=".pdf,.png,.jpg,.jpeg,.txt">
+                <button class="ghost-button" type="submit">Upload File</button>
+            </form>
+        </div>
+
+        <div class="sidebar-card">
+            <div class="card-head">
+                <h2>System Limits</h2>
+                <form method="post" action="{{ url_for('web.reset_chat') }}">
+                    <button class="text-button" type="submit">Clear session</button>
+                </form>
+            </div>
+            <ul class="limit-list">
+                {% for line in limitation_lines %}
+                <li>{{ line }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </aside>
+
+    <section class="chat-shell">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        <section class="flash-stack">
+            {% for category, message in messages %}
+            <div class="flash flash-{{ category }}">{{ message }}</div>
+            {% endfor %}
+        </section>
+        {% endif %}
+        {% endwith %}
+
+        <div class="chat-surface">
+            <div class="chat-log" id="chat-log">
+                {% if messages %}
+                    {% for message in messages %}
+                    <article class="message-row message-row-{{ message.role }}">
+                        <div class="avatar">{{ "U" if message.role == "user" else "AI" }}</div>
+                        <div class="chat-message chat-message-{{ message.role }}">
+                            <span class="role-label">{{ message.role }}</span>
+                            <p>{{ message.content }}</p>
+                        </div>
+                    </article>
+                    {% endfor %}
+                {% else %}
+                    <div class="empty-state">
+                        <div class="empty-badge">BankAI</div>
+                        <h2>How can I help with banking guidance?</h2>
+                        <p>Ask about deposits, withdrawals, ATM usage, KYC, forms, or uploaded banking documents.</p>
+                    </div>
+                {% endif %}
+            </div>
+
+            <div class="composer-wrap">
+                <form class="chat-form" method="post" action="{{ url_for('web.chat') }}" id="chat-form">
+                    <label class="sr-only" for="question">Question</label>
+                    <textarea id="question" name="question" rows="1" placeholder="Ask banking question..." data-autosize></textarea>
+                    <div class="composer-actions">
+                        <span class="composer-hint">Enter to send, Shift+Enter for new line</span>
+                        <button class="send-button" type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}
