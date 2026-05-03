@@ -1,0 +1,101 @@
+Debit and Credit Card Guide for Indian Bank Customers
+
+OVERVIEW
+This guide explains how to apply for, use, block, and manage debit and credit cards.
+
+PART 1: DEBIT CARD
+
+WHAT IS A DEBIT CARD
+A debit card is linked directly to a bank account. When you pay or withdraw, amount is deducted from account balance.
+
+HOW TO GET A DEBIT CARD
+Step 1: Debit card is usually issued when opening savings or current account.
+Step 2: If not issued automatically, request one at branch.
+Step 3: Fill debit card request form.
+Step 4: Card is delivered by post within 7 to 10 working days.
+Step 5: Activate card by generating PIN at ATM or mobile app.
+
+NOTE
+Banks cannot force a customer to take a debit card. It is optional.
+
+DEBIT CARD PIN GENERATION AT ATM
+Step 1: Insert card at ATM.
+Step 2: Select PIN Generation or PIN Change.
+Step 3: Enter registered mobile OTP if prompted.
+Step 4: Set new 4-digit PIN.
+
+DEBIT CARD PIN GENERATION IN MOBILE APP
+Step 1: Log in to bank app.
+Step 2: Go to Cards or Debit Card Services.
+Step 3: Select Generate PIN or Set PIN.
+Step 4: Authenticate with OTP.
+Step 5: Set new PIN.
+
+DAILY TRANSACTION LIMITS
+- ATM cash withdrawal: Rs. 10,000 to Rs. 1,00,000 per day depending on card and bank.
+- POS transactions: Rs. 50,000 to Rs. 2,00,000 per day.
+- Online transactions: Rs. 50,000 to Rs. 1,00,000 per day.
+
+PART 2: CREDIT CARD
+
+WHAT IS A CREDIT CARD
+A credit card allows purchases on credit up to a pre-approved limit. Used amount is repaid by monthly due date.
+
+HOW TO APPLY
+Step 1: Check eligibility. Minimum income and good credit score are usually required.
+Step 2: Apply online, through mobile app, or branch.
+Step 3: Submit Aadhaar, PAN, salary slips or ITR, and photograph.
+Step 4: Bank checks CIBIL score and income.
+Step 5: Credit card is approved and issued within 7 to 15 working days.
+
+NOTE
+Banks cannot issue a credit card without explicit consent. Unsolicited cards are prohibited.
+
+BILLING CYCLE
+- Billing cycle is usually 30 days.
+- Statement shows transactions and total due.
+- Payment is due within 15 to 20 days of statement date.
+- Pay full outstanding to avoid interest.
+- Minimum Amount Due avoids late fee but interest applies on unpaid amount.
+
+PART 3: BLOCKING LOST OR STOLEN CARD
+
+Mobile app method:
+Step 1: Open bank app.
+Step 2: Go to Cards.
+Step 3: Select Block Card or Hot-list Card.
+Step 4: Confirm block.
+
+Customer care method:
+Step 1: Call 24x7 bank helpline.
+Step 2: Select card block option.
+Step 3: Verify identity.
+Step 4: Card is blocked immediately.
+
+Net banking method:
+Step 1: Log in to net banking.
+Step 2: Go to Card Services.
+Step 3: Select Block Card and confirm.
+
+SMS method:
+Send SMS in the format specified by the bank.
+
+IMPORTANT
+Block card first, then visit branch or app to apply for replacement card.
+
+PART 4: REPORTING UNAUTHORISED TRANSACTIONS
+Step 1: Immediately call bank helpline or block card.
+Step 2: Lodge complaint within 3 working days of noticing transaction.
+Step 3: If reported within 3 days, RBI zero-liability framework may apply where customer is not negligent.
+Step 4: Bank must resolve complaint and credit amount within required timeline.
+Step 5: If unresolved, escalate to RBI Ombudsman.
+
+PART 5: CARD SAFETY TIPS
+- Never share card number, CVV, PIN, or OTP.
+- Cover keypad at ATMs and POS machines.
+- Register transaction alerts.
+- Use virtual cards for online transactions if available.
+- Check statement regularly.
+
+SOURCE
+RBI Master Directions on Credit Card and Debit Card Issuance and Conduct, RBI card FAQs, and RBI electronic transaction liability framework.

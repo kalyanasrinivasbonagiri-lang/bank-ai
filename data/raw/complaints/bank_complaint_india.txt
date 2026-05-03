@@ -1,0 +1,76 @@
+How to File a Complaint Against a Bank in India
+
+OVERVIEW
+If you face problems such as wrong charges, failed transactions, poor service, or fraud, RBI provides a complaint escalation path.
+
+STEP 1: COMPLAIN TO YOUR BANK FIRST
+All complaints must first be raised with the bank. Banks are required to resolve complaints within prescribed timelines.
+
+Methods:
+- Branch: Visit branch and speak to Branch Manager. Request written acknowledgement.
+- Customer Care: Call 24x7 helpline and note complaint reference number.
+- Net Banking or Mobile App: Use Raise Complaint or Service Request.
+- Email: Send complaint to official customer care email.
+- Written Letter: Write to Branch Manager or Nodal Officer.
+
+What to include:
+- Full name and account number
+- Nature of problem
+- Date and amount of transaction
+- Reference or transaction ID
+- Expected resolution
+
+STEP 2: ESCALATE TO NODAL OFFICER
+If bank does not resolve within 30 days, escalate to bank Nodal Officer. Banks publish Nodal Officer contact details.
+
+STEP 3: RBI INTEGRATED OMBUDSMAN SCHEME
+File complaint with RBI Ombudsman if:
+- Bank does not resolve complaint within 30 days.
+- Bank rejects complaint.
+- You are not satisfied with bank response.
+
+IMPORTANT
+You must approach the bank first. Ombudsman may not entertain complaint without proof of bank complaint.
+
+HOW TO FILE WITH RBI OMBUDSMAN ONLINE
+Step 1: Visit cms.rbi.org.in.
+Step 2: Click File a Complaint.
+Step 3: Enter name, address, and contact details.
+Step 4: Select bank and complaint type.
+Step 5: Describe complaint.
+Step 6: Attach supporting documents.
+Step 7: Submit and note complaint registration number.
+
+HOW TO FILE BY POST
+Write to the RBI Ombudsman at the regional office for your state.
+
+COMPLAINTS COVERED
+- Failure to credit funds
+- Delay in cheque payment
+- Refusal to close account without valid reason
+- ATM transaction failure and non-refund
+- Unauthorised debit or fraud
+- Wrong charges or fees
+- Non-return of property documents after loan repayment
+- Failure to issue KYC acknowledgement
+- UPI, NEFT, or RTGS failures
+
+ATM TRANSACTION FAILURE RULE
+If ATM withdrawal fails but money is debited:
+Step 1: Report immediately to bank with ATM location, date, time, and amount.
+Step 2: Bank must refund within required RBI timeline.
+Step 3: Delay beyond timeline may require compensation.
+
+FAILED UPI, NEFT, OR RTGS
+- UPI failures should normally auto-reverse quickly.
+- NEFT and RTGS failures have defined reversal timelines.
+- If reversal does not happen, complain to bank and escalate where required.
+
+USEFUL CONTACTS
+- RBI Helpline: 14448
+- RBI Complaint Portal: cms.rbi.org.in
+- NPCI support for UPI issues: npci.org.in
+- Cyber Crime Complaints: cybercrime.gov.in or 1930
+
+SOURCE
+RBI Integrated Ombudsman Scheme 2021, RBI ATM refund circulars, Consumer Protection Act 2019, and NPCI dispute resolution guidelines.

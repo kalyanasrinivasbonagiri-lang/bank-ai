@@ -1,0 +1,83 @@
+KYC: Know Your Customer, What It Is and How to Update It
+
+OVERVIEW
+KYC stands for Know Your Customer. It is the process by which banks verify identity and address of customers. RBI makes KYC compulsory for bank account holders. Without valid KYC, banks may freeze or restrict accounts.
+
+WHY KYC IS REQUIRED
+- To prevent money laundering and financial fraud
+- To comply with RBI and Prevention of Money Laundering Act regulations
+- To verify that the account holder is genuine
+- To protect customers from identity theft
+
+INITIAL KYC
+Initial KYC is done during account opening. Customer submits identity proof, address proof, photograph, and sometimes biometric data.
+
+PERIODIC KYC UPDATE
+- High-risk customers: every 2 years
+- Medium-risk customers: every 8 years
+- Low-risk customers: every 10 years
+Banks send notice by SMS, email, or letter when KYC update is due.
+
+HOW TO UPDATE KYC AT BRANCH
+Step 1: Visit home branch during banking hours.
+Step 2: Inform bank officer that you want to update KYC.
+Step 3: Collect KYC Update Form or Re-KYC Form.
+Step 4: Fill current details such as full name, date of birth, address, mobile number, email ID, occupation, and income range.
+Step 5: Attach self-attested photocopies of identity proof and address proof if address changed.
+Step 6: Submit form and documents.
+Step 7: Officer verifies original documents.
+Step 8: Biometric capture may be done.
+Step 9: You receive SMS or acknowledgement.
+Step 10: KYC update is processed within 1 to 3 working days.
+
+HOW TO UPDATE KYC ONLINE
+Step 1: Log in to net banking or mobile app.
+Step 2: Go to Profile or Update KYC.
+Step 3: Enter Aadhaar number.
+Step 4: OTP is sent to Aadhaar-registered mobile number.
+Step 5: Enter OTP to authenticate.
+Step 6: KYC details are fetched from UIDAI.
+Step 7: Confirm and submit.
+Step 8: Confirmation SMS is sent.
+
+Note: Aadhaar-based online KYC is available only when mobile number is linked with Aadhaar.
+
+DOCUMENTS REQUIRED
+Identity Proof, any one:
+- Aadhaar Card
+- PAN Card
+- Passport
+- Voter ID
+- Driving Licence
+
+Address Proof, any one if address changed:
+- Aadhaar Card
+- Utility bill not older than 3 months
+- Passport
+- Bank statement from another bank
+- Registered rental or lease agreement
+
+Photograph:
+- 1 recent passport-size photograph may be required.
+
+WHAT HAPPENS IF KYC IS NOT UPDATED
+- Bank may restrict outward transactions.
+- ATM access may be suspended.
+- Net banking and mobile banking may be blocked.
+- Account may be frozen for credits in extreme cases.
+- Complete KYC update at branch to unfreeze.
+
+C-KYC
+India has a centralised KYC registry called CKYC managed by CERSAI. Once KYC is done at a regulated financial institution, a 14-digit CKYC number may be issued and reused.
+
+VIDEO KYC
+RBI allows Video-based Customer Identification Process. A bank officer conducts a live video call, verifies original documents, captures required images, and completes identity verification.
+
+IMPORTANT NOTES
+- Never submit KYC documents to unknown or unverified persons.
+- Bank will never ask for PIN, OTP, or password during KYC.
+- If address changed, update it with KYC.
+- Link Aadhaar to bank account for seamless digital KYC where available.
+
+SOURCE
+RBI Master Direction on KYC, UIDAI Aadhaar guidelines, and CERSAI CKYC registry.

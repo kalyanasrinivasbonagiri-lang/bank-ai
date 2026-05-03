@@ -1,0 +1,52 @@
+How to Withdraw Money from a Bank in India
+
+OVERVIEW
+You can withdraw money from a bank account at branch counter, ATM, or through digital payment methods. This document covers counter withdrawals and required documents.
+
+METHOD 1: CASH WITHDRAWAL AT BRANCH COUNTER
+
+REQUIRED DOCUMENTS
+- Filled withdrawal slip
+- Original passbook or account statement
+- Valid government-issued photo ID such as Aadhaar, Voter ID, Driving Licence, or PAN
+- Signature must match bank records
+
+STEP-BY-STEP PROCESS
+Step 1: Collect withdrawal slip from counter or slip rack.
+Step 2: Fill date, account number, account holder name, amount in figures, amount in words, and purpose if asked.
+Step 3: Sign withdrawal slip. Signature must match the bank record.
+Step 4: Carry passbook and one valid photo ID.
+Step 5: Submit slip and documents at cash withdrawal counter.
+Step 6: Teller verifies signature and account details.
+Step 7: For large amounts, generally above Rs. 50,000, teller may ask for PAN card.
+Step 8: Receive cash and count it at counter before leaving.
+Step 9: Passbook is updated or stamped receipt may be issued.
+
+LARGE CASH WITHDRAWALS
+- Withdrawals of Rs. 50,000 or above require PAN Card as per Income Tax Rules.
+- If PAN is not available, submit Form 60.
+- Withdrawals above Rs. 2 lakh in cash in a single day may be subject to TDS under Section 194N if total cash withdrawal in financial year exceeds specified threshold.
+
+METHOD 2: ATM WITHDRAWAL
+- Use ATM guide for full steps.
+- Maximum per transaction is often Rs. 10,000 to Rs. 25,000.
+- Daily limit may range from Rs. 25,000 to Rs. 1,00,000 depending on account and card.
+
+METHOD 3: CHEQUE SELF-WITHDRAWAL
+Step 1: Write cheque in your own name or write Self in Pay field.
+Step 2: Write amount in words and figures.
+Step 3: Date and sign cheque.
+Step 4: Submit cheque at cash payment counter of your own branch.
+Step 5: Teller verifies signature and available balance.
+Step 6: Collect cash.
+
+IMPORTANT NOTES
+- Branch counter withdrawal requires signature match.
+- If signature changed, update it with bank.
+- Third-party withdrawals require authorisation letter and ID proof of both parties.
+- Banks may impose cash handling charges above certain limits.
+- Count cash at counter. Complaints about wrong amount may not be accepted after leaving.
+- Cash transaction timings may be shorter than branch hours.
+
+SOURCE
+RBI cash transaction guidance and Income Tax Act provisions on PAN and TDS for cash withdrawal.

@@ -1,0 +1,81 @@
+How to Transfer Money Between Bank Accounts in India
+
+OVERVIEW
+India offers multiple fund transfer systems. Choose method based on amount, urgency, and time of transfer.
+
+TRANSFER METHOD COMPARISON
+- NEFT: No minimum, no RBI maximum, batch processing around every 30 minutes, available 24x7, free online.
+- RTGS: Minimum Rs. 2 lakh, no RBI maximum, real-time settlement, available 24x7, free online.
+- IMPS: Minimum Re. 1, maximum usually Rs. 5 lakh, instant, available 24x7 including holidays, small fee may apply.
+- UPI: Minimum Re. 1, general maximum Rs. 1 lakh per transaction, instant, available 24x7, usually free.
+
+METHOD 1: NEFT
+Use NEFT for transfers of any amount where instant credit is not required.
+
+HOW TO DO NEFT ONLINE
+Step 1: Log in to internet banking or mobile banking.
+Step 2: Go to Fund Transfer or Pay.
+Step 3: Add beneficiary by entering account number, account type, IFSC code, and name.
+Step 4: Wait for beneficiary activation if required.
+Step 5: Select beneficiary and choose NEFT.
+Step 6: Enter amount and remarks.
+Step 7: Confirm using OTP.
+Step 8: Transaction is queued for next NEFT batch.
+
+HOW TO DO NEFT AT BRANCH
+Step 1: Fill NEFT or RTGS request form.
+Step 2: Provide sender account number, beneficiary account number, IFSC, beneficiary name, and amount.
+Step 3: Sign and submit at counter.
+
+METHOD 2: RTGS
+Use RTGS for high-value transfers of Rs. 2 lakh and above when funds must be credited immediately. Process is similar to NEFT, but select RTGS instead.
+
+RTGS DETAILS
+- Minimum amount: Rs. 2,00,000.
+- No RBI maximum limit, though banks may set internal caps.
+- Settlement is real-time.
+- Available 24x7 since December 14, 2020.
+
+DELAY PENALTY
+If RTGS or NEFT transaction is delayed beyond stipulated time, bank must compensate as per RBI guidelines.
+
+BENEFICIARY NAME VERIFICATION
+RBI introduced beneficiary name verification for NEFT and RTGS to help reduce fraud and wrong transfers.
+
+METHOD 3: IMPS
+Use IMPS for instant transfers at any time, including nights, weekends, and public holidays.
+
+HOW TO DO IMPS ONLINE
+Step 1: Log in to mobile banking or net banking.
+Step 2: Go to Fund Transfer and select IMPS.
+Step 3: Enter beneficiary account number and IFSC, or use mobile number plus MMID.
+Step 4: Enter amount and confirm with OTP.
+Step 5: Funds are credited instantly.
+
+METHOD 4: UPI
+Use UPI for instant small to medium payments and transfers.
+
+HOW TO DO UPI TRANSFER
+Step 1: Open UPI app such as BHIM, PhonePe, GPay, Paytm, or bank app.
+Step 2: Tap Send Money or Pay.
+Step 3: Enter UPI ID, mobile number, or scan QR code.
+Step 4: Enter amount and optional remark.
+Step 5: Enter UPI PIN.
+Step 6: Money is transferred instantly.
+
+UPI LIMITS
+- General UPI transaction limit is up to Rs. 1 lakh.
+- Specific categories such as medical, education, or IPO may allow higher limits.
+- UPI Lite supports small offline transactions.
+
+WHAT IS IFSC CODE
+IFSC is an 11-character code identifying a bank branch. Example: SBIN0001234. It is printed on cheque book, passbook, and may be searched through RBI IFSC resources.
+
+IMPORTANT NOTES
+- Verify beneficiary account number and IFSC before confirming transfer.
+- Use beneficiary name verification where available.
+- Never transfer money to unknown persons based on calls or messages claiming to be bank officials.
+- Keep transaction reference number as proof.
+
+SOURCE
+RBI NEFT and RTGS guidelines, NPCI IMPS and UPI guidelines, and RBI circulars.

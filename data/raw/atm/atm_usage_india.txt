@@ -1,0 +1,63 @@
+How to Use an ATM in India
+
+OVERVIEW
+An ATM, or Automated Teller Machine, allows basic banking operations 24 hours a day without visiting a bank branch.
+
+WHAT YOU NEED
+- A valid debit card issued by your bank
+- Your 4-digit ATM PIN
+
+STEP-BY-STEP: CASH WITHDRAWAL
+Step 1: Insert your debit card into the ATM card slot with the chip facing up.
+Step 2: Select your preferred language.
+Step 3: Enter your 4-digit PIN. Cover the keypad with your other hand for security.
+Step 4: Select Withdrawal from the menu.
+Step 5: Select your account type, Savings or Current.
+Step 6: Enter the amount you wish to withdraw. Use multiples of Rs. 100 or Rs. 500.
+Step 7: Confirm the amount when prompted.
+Step 8: Collect cash from the cash dispenser.
+Step 9: Collect printed receipt if requested.
+Step 10: Remove your debit card. Some ATMs return the card before dispensing cash and some after dispensing cash.
+
+STEP-BY-STEP: BALANCE ENQUIRY
+Step 1: Insert card and enter PIN.
+Step 2: Select Balance Enquiry.
+Step 3: Select account type.
+Step 4: Available balance is displayed on screen.
+Step 5: Choose to print a mini statement if needed.
+
+STEP-BY-STEP: PIN CHANGE
+Step 1: Insert card and enter current PIN.
+Step 2: Select PIN Change or Other Services.
+Step 3: Enter current PIN when prompted.
+Step 4: Enter the new 4-digit PIN.
+Step 5: Re-enter the new PIN to confirm.
+Step 6: PIN is changed successfully.
+
+DAILY WITHDRAWAL LIMITS
+- Most banks allow Rs. 10,000 to Rs. 25,000 per day from savings accounts.
+- Premium accounts may have limits up to Rs. 1,00,000 per day.
+- Limits vary by bank and account type.
+
+FREE TRANSACTION LIMITS
+- 5 free transactions per month at your own bank ATMs.
+- 3 free transactions per month at other bank ATMs in metro cities such as Mumbai, Delhi, Chennai, Kolkata, Bengaluru, and Hyderabad.
+- 5 free transactions per month at other bank ATMs in non-metro cities.
+- After the free limit, charges may apply. RBI revised financial transaction charges to Rs. 21 from January 2022.
+
+SAFETY TIPS
+- Never share your PIN with anyone, including bank staff.
+- Shield the keypad when entering your PIN.
+- Do not accept help from strangers at the ATM.
+- Always collect your card before leaving.
+- If the ATM retains your card, call your bank helpline immediately and block the card.
+- If cash is not dispensed but amount is debited, note the ATM ID, date, and time, then complain to your bank. Refund timelines follow RBI rules.
+
+WHAT TO DO IF ATM SWALLOWS YOUR CARD
+Step 1: Do not leave the ATM immediately.
+Step 2: Note the ATM ID number displayed on the machine.
+Step 3: Call the bank 24x7 helpline and block the card.
+Step 4: Visit the branch next working day with identity proof to request replacement.
+
+SOURCE
+RBI circulars on ATM charges and NPCI ATM usage guidance.

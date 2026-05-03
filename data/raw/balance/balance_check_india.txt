@@ -1,0 +1,72 @@
+How to Check Bank Balance in India
+
+OVERVIEW
+You can check your bank account balance through branch, ATM, mobile app, internet banking, SMS, missed call service, passbook update, mini statement, or UPI.
+
+METHOD 1: ATM BALANCE ENQUIRY
+Step 1: Insert debit card at any ATM.
+Step 2: Enter your 4-digit PIN.
+Step 3: Select Balance Enquiry.
+Step 4: Select account type, Savings or Current.
+Step 5: Available balance is shown on screen.
+Step 6: Optionally print a mini statement.
+
+METHOD 2: MOBILE BANKING APP
+Step 1: Download the bank official mobile app.
+Step 2: Register using registered mobile number and debit card details.
+Step 3: Set a 4 to 6 digit MPIN.
+Step 4: Log in to the app.
+Step 5: Balance is displayed on the home screen or Account Summary.
+Step 6: Mini statement may show last 5 to 10 transactions.
+
+METHOD 3: INTERNET BANKING
+Step 1: Visit the bank official website.
+Step 2: Click Net Banking or Login.
+Step 3: Enter Customer ID or User ID and password.
+Step 4: Dashboard shows balance under My Accounts.
+Step 5: Click account to view statement or download PDF.
+
+METHOD 4: MISSED CALL
+- Register your mobile number with your bank account.
+- Give a missed call to the bank balance enquiry number.
+- The call disconnects automatically.
+- You receive SMS with account balance.
+
+Common missed call numbers must be verified with the bank because they may change:
+- SBI: 9223766666
+- HDFC: 1800-270-3333
+- ICICI: 9594613613
+- Axis Bank: 1800-419-6969
+- Bank of Baroda: 8468001111
+- Canara Bank: 09015483483
+- PNB: 1800-180-2222
+
+METHOD 5: SMS BANKING
+Step 1: Register mobile number for SMS banking.
+Step 2: Send SMS in bank-specified format, such as BAL followed by last 4 account digits.
+Step 3: Receive SMS with current balance. Standard SMS charges may apply.
+
+METHOD 6: PASSBOOK UPDATE
+Step 1: Carry passbook to branch.
+Step 2: Submit at passbook counter or use passbook kiosk.
+Step 3: Passbook is updated with transactions and balance.
+
+METHOD 7: MINI STATEMENT VIA ATM
+Step 1: Insert card and enter PIN.
+Step 2: Select Mini Statement.
+Step 3: Printed slip shows recent transactions and balance.
+
+UPI BALANCE CHECK
+Step 1: Open any UPI app such as BHIM, GPay, PhonePe, or Paytm.
+Step 2: Link bank account using debit card details.
+Step 3: Select Check Balance or tap linked account.
+Step 4: Enter UPI PIN.
+Step 5: Balance is displayed instantly.
+
+IMPORTANT NOTE
+- Available Balance is the amount you can currently withdraw or use.
+- Ledger Balance is total balance including pending transactions.
+- Rely on Available Balance for withdrawals.
+
+SOURCE
+RBI consumer education portal, NPCI UPI guidelines, and individual bank mobile banking guides.

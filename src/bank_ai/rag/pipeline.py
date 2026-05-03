@@ -3,7 +3,11 @@ from __future__ import annotations
 from src.bank_ai.constants.prompts import NO_CONTEXT_FALLBACK_PROMPT, RAG_SYSTEM_PROMPT
 from src.bank_ai.llm.groq_client import build_messages
 from src.bank_ai.rag.retrieval import retrieve_context
-from src.bank_ai.services.response_service import build_source_list, format_context_block
+from src.bank_ai.services.response_service import (
+    build_answer_style_instruction,
+    build_source_list,
+    format_context_block,
+)
 
 
 class RagPipeline:
@@ -20,7 +24,8 @@ class RagPipeline:
             }
 
         context = format_context_block(documents)
-        messages = build_messages(RAG_SYSTEM_PROMPT, query, context=context)
+        styled_query = f"{query}\n\n{build_answer_style_instruction(query)}"
+        messages = build_messages(RAG_SYSTEM_PROMPT, styled_query, context=context)
         answer = self.groq_client.complete_text(messages)
         return {
             "answer": answer,

@@ -1,0 +1,114 @@
+Bank Form Field Explanations
+
+OVERVIEW
+This document explains common fields on deposit slips, withdrawal slips, cheque leaves, and demand draft request forms.
+
+PART 1: CASH DEPOSIT SLIP FIELDS
+
+Date
+The date on which you make the deposit. Use DD/MM/YYYY format.
+
+Branch Name
+The bank branch where you are making the deposit.
+
+Account Number
+Your 11 to 16-digit bank account number where money should be credited. Write clearly without spaces.
+
+Account Holder Name
+Name of the person or entity as registered with the bank. Write exactly as shown in passbook.
+
+Amount in Figures
+Exact cash amount in numbers, such as 5000.00.
+
+Amount in Words
+Full amount in words, such as Five Thousand Rupees Only. Always end with Only.
+
+Denomination Details
+A table where you fill number of notes of each denomination, such as Rs. 500, Rs. 200, Rs. 100, Rs. 50, Rs. 20, Rs. 10, coins, and total.
+
+Depositor Signature
+Signature confirming that deposit is intentional.
+
+Depositor Mobile Number
+Some banks ask for mobile number to send SMS confirmation.
+
+PART 2: CHEQUE DEPOSIT SLIP FIELDS
+Cheque deposit slips include the cash deposit fields plus:
+
+Cheque Number
+The 6-digit number printed at bottom left of cheque leaf in the MICR area.
+
+Cheque Date
+The date written on the cheque by the drawer.
+
+Drawn on Bank and Branch
+The bank and branch on which the cheque is issued.
+
+IFSC Code
+The 11-character code identifying the bank and branch for electronic transactions. Sometimes required.
+
+PART 3: WITHDRAWAL SLIP FIELDS
+
+Date
+Date of withdrawal.
+
+Account Number
+Account from which money is to be withdrawn.
+
+Account Holder Name
+Name as per bank records.
+
+Amount in Figures and Words
+Exact amount to withdraw.
+
+Purpose
+Reason for withdrawal, such as Personal Use, Medical, or Travel. Optional at most banks.
+
+Signature
+Must match the signature on record with the bank.
+
+Token Number
+Given by token counter or system to track queue transaction.
+
+PART 4: CHEQUE LEAF FIELDS
+
+Date
+Write the current date. Post-dated cheques are valid but cannot be encashed before date.
+
+Pay or Payee Name
+Write the person or company who should receive the money. Write Self to withdraw for yourself.
+
+Rupees or Amount in Words
+Write full amount in words followed by Only. Draw a line after words to prevent fraud.
+
+Amount in Figures Box
+Write the amount in numbers in the box.
+
+A/c Payee Only Crossing
+Draw two parallel lines at top left and write A/c Payee between them. This means cheque can only be deposited into the payee bank account, not encashed at counter.
+
+Signature
+Sign at bottom right. Signature must match bank record. Use blue or black ink.
+
+Cheque Number, MICR Code, Account Number, IFSC
+These are pre-printed at bottom of cheque. Do not write over MICR band.
+
+PART 5: DEMAND DRAFT REQUEST FORM FIELDS
+
+Applicant Name
+Name of person requesting DD.
+
+Applicant Account Number
+Account from which DD amount will be debited.
+
+Payee Name
+Name of person or company to whom DD is payable.
+
+Payable At
+City or branch where DD is to be paid.
+
+Amount
+Amount in figures and words.
+
+SOURCE
+RBI Master Circular on Cheque Operations, NPCI CTS guidelines, and bank form guides.

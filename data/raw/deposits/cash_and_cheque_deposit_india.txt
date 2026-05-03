@@ -1,0 +1,59 @@
+How to Deposit Money in India: Cash and Cheque
+
+OVERVIEW
+You can deposit cash or a cheque into a bank account at the branch counter, at a Cash Deposit Machine, or through a cheque drop box.
+
+PART 1: CASH DEPOSIT AT BRANCH COUNTER
+
+STEP-BY-STEP PROCESS
+Step 1: Obtain a Cash Deposit Slip or Pay-in Slip from the counter or slip rack.
+Step 2: Fill the deposit slip with date, account number, account holder name, amount in figures, amount in words, denomination details if asked, and signature.
+Step 3: Count cash carefully and organise notes by denomination.
+Step 4: Proceed to the cash deposit counter.
+Step 5: Submit the filled slip along with cash to the teller.
+Step 6: Teller counts cash and verifies slip details.
+Step 7: Collect stamped receipt as proof of deposit and keep it safely.
+
+CASH DEPOSIT MACHINE
+Step 1: Insert debit card or enter account number manually.
+Step 2: Enter PIN if using debit card method.
+Step 3: Select Cash Deposit.
+Step 4: Insert notes into the cash acceptance slot.
+Step 5: Verify amount displayed on screen.
+Step 6: Confirm transaction.
+Step 7: Collect receipt. Cash is credited immediately or within the same working day.
+
+PART 2: CHEQUE DEPOSIT AT BRANCH COUNTER
+
+STEP-BY-STEP PROCESS
+Step 1: Obtain Cheque Deposit Slip from the counter.
+Step 2: Fill date, account number, account holder name, cheque number, bank and branch drawn on, cheque date, amount in figures, and amount in words.
+Step 3: Attach cheque to deposit slip. Do not staple through the MICR band at the bottom of cheque.
+Step 4: Submit slip and cheque at cheque collection counter.
+Step 5: Collect stamped counterfoil as receipt.
+
+CHEQUE DROP BOX
+Step 1: Fill cheque deposit slip.
+Step 2: Place cheque and slip in envelope if available.
+Step 3: Drop into cheque drop box at branch entrance or ATM lobby.
+Step 4: Cheques deposited before cut-off time, usually 3 PM, are processed the same day.
+
+CHEQUE CLEARING TIME
+- Local cheque in same city or same bank: Credit in 1 working day.
+- Outstation cheque in different city: 2 to 5 working days.
+- MICR or CTS cheque: Faster clearing through Cheque Truncation System, typically 1 working day.
+
+LARGE CASH DEPOSITS AND PAN REQUIREMENT
+- Cash deposits of Rs. 50,000 or more in a single transaction require PAN Card.
+- If PAN is not available, Form 60 must be submitted.
+- Cash deposits exceeding Rs. 10 lakh in a financial year are reported by banks to the Income Tax Department.
+
+IMPORTANT NOTES
+- Always check that receipt or counterfoil is stamped by the bank.
+- Never leave the counter without collecting receipt.
+- If depositing a bearer cheque, ensure it is signed by the drawer on the back.
+- Post-dated cheques cannot be deposited before their date.
+- If cheque is returned or bounced, the bank will inform you. Dishonour of cheque is an offence under Section 138 of the Negotiable Instruments Act.
+
+SOURCE
+RBI cheque clearing guidelines, NPCI CTS system guide, and Income Tax Act Section 114B on PAN requirements.

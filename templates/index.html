@@ -1,107 +1,176 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="app-frame">
-    <aside class="sidebar">
-        <div class="brand-card">
-            <div class="brand-mark">B</div>
-            <div>
-                <p class="eyebrow">Banking Guidance AI</p>
-                <h1>{{ app_name }}</h1>
+<section class="intro-screen page-view {% if not messages %}is-active{% endif %}" id="welcome-page" aria-labelledby="page-title" {% if messages %}hidden{% endif %}>
+    <div class="intro-card">
+        <header class="intro-header">
+            <div class="intro-brand">
+                <div class="brand-mark">BA</div>
+                <div>
+                    <p class="brand-name">{{ app_name }}</p>
+                    <p class="brand-sub">Your banking guidance companion</p>
+                </div>
+            </div>
+            <div class="status-button" aria-label="Document index ready">
+                <span class="status-dot"></span>
+            </div>
+        </header>
+
+        <div class="intro-body">
+            <div class="intro-copy">
+                <span class="flow-pill">BANKING GUIDANCE FLOW</span>
+                <h1 id="page-title">Your banking<br><span>AI guide</span></h1>
+                <p class="intro-text">
+                    Ask about deposits, withdrawals, ATM usage, KYC, forms, and uploaded documents. BankAI keeps answers tied to your indexed source material.
+                </p>
+                <div class="intro-actions">
+                    <button class="primary-link" type="button" data-open-chat>Start with BankAI</button>
+                    <button class="secondary-link" type="button" data-open-chat data-fill-question="How to fill a deposit slip?">Try a sample question</button>
+                </div>
+            </div>
+
+            <div class="feature-stack" aria-label="BankAI highlights">
+                <article class="feature-item">
+                    <h2>Document grounded flow</h2>
+                    <p>Ask banking questions and keep answers connected to your indexed local guidance documents.</p>
+                </article>
+                <article class="feature-item">
+                    <h2>Answers from local documents</h2>
+                    <p>BankAI uses retrieval over indexed files and avoids inventing policy details when sources are missing.</p>
+                </article>
+                <article class="feature-item">
+                    <h2>Upload PDFs and images</h2>
+                    <p>Use the current upload flow to extract text from banking forms, PDFs, screenshots, or photos.</p>
+                </article>
             </div>
         </div>
+    </div>
+</section>
 
-        <div class="sidebar-card">
-            <h2>Assistant Scope</h2>
-            <p>{{ disclaimer }}</p>
+<section class="assistant-panel page-view {% if messages %}is-active{% endif %}" id="assistant-panel" aria-labelledby="assistant-title" {% if not messages %}hidden{% endif %}>
+    <header class="assistant-header">
+        <div>
+            <p class="section-kicker">Live assistant</p>
+            <h2 id="assistant-title">Banking guidance workspace</h2>
         </div>
-
-        <div class="sidebar-card">
-            <div class="card-head">
-                <h2>Sample Prompts</h2>
-                <span class="muted-badge">RAG Ready</span>
-            </div>
-            <div class="prompt-list">
-                {% for prompt in sample_prompts %}
-                <button class="prompt-chip" type="button" data-prompt="{{ prompt }}">{{ prompt }}</button>
-                {% endfor %}
-            </div>
-        </div>
-
-        <div class="sidebar-card">
-            <div class="card-head">
-                <h2>Upload Document</h2>
-                <span class="muted-badge">OCR</span>
-            </div>
-            <p>Upload a banking form, PDF, or image for document-grounded explanation.</p>
-            <form class="upload-form" method="post" action="{{ url_for('web.upload') }}" enctype="multipart/form-data">
-                <label class="file-drop" for="file">
-                    <span class="file-drop-icon">+</span>
-                    <span>Select a file to analyze</span>
-                </label>
-                <input id="file" type="file" name="file" accept=".pdf,.png,.jpg,.jpeg,.txt">
-                <button class="ghost-button" type="submit">Upload File</button>
+        <div class="header-actions">
+            <div class="live-badge"><span class="live-dot"></span>Document index ready</div>
+            <form method="post" action="{{ url_for('web.reset_chat') }}">
+                <button class="text-button" type="submit">Clear session</button>
             </form>
         </div>
+    </header>
 
-        <div class="sidebar-card">
-            <div class="card-head">
-                <h2>System Limits</h2>
-                <form method="post" action="{{ url_for('web.reset_chat') }}">
-                    <button class="text-button" type="submit">Clear session</button>
-                </form>
+    {% with flashes = get_flashed_messages(with_categories=true) %}
+    {% if flashes %}
+    <section class="flash-stack" aria-live="polite">
+        {% for category, message in flashes %}
+        <div class="flash flash-{{ category }}">{{ message }}</div>
+        {% endfor %}
+    </section>
+    {% endif %}
+    {% endwith %}
+
+    <section class="workspace-grid">
+        <aside class="shortcut-panel" aria-label="Banking service shortcuts">
+            <button class="service-card is-selected" type="button" data-service="Account opening" data-prompt="How to open a bank account?">
+                <span class="service-icon service-icon-gold">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </span>
+                <span><strong>Account opening</strong><small>Savings, current, FD account creation</small></span>
+            </button>
+
+            <button class="service-card" type="button" data-service="Cheque deposit" data-prompt="How to deposit a cheque?">
+                <span class="service-icon service-icon-mint">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+                </span>
+                <span><strong>Cheque deposit</strong><small>Counter process, slip filling</small></span>
+            </button>
+
+            <button class="service-card" type="button" data-service="KYC update" data-prompt="What is the process for KYC update?">
+                <span class="service-icon service-icon-blue">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </span>
+                <span><strong>KYC update</strong><small>Document verification, biometric</small></span>
+            </button>
+
+            <button class="service-card" type="button" data-service="ATM guide" data-prompt="How to withdraw money from ATM?">
+                <span class="service-icon service-icon-green">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="18" rx="2"/><line x1="2" y1="9" x2="22" y2="9"/><path d="M8 14h.01M12 14h.01M16 14h.01"/></svg>
+                </span>
+                <span><strong>ATM guide</strong><small>Withdrawal, balance check, PIN</small></span>
+            </button>
+
+            <button class="service-card" type="button" data-service="Deposit slip" data-prompt="How to fill a deposit slip?">
+                <span class="service-icon service-icon-violet">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                </span>
+                <span><strong>Deposit slip</strong><small>How to fill, field explanations</small></span>
+            </button>
+
+            <button class="service-card" type="button" data-service="Withdrawal docs" data-prompt="What documents are needed for withdrawal?">
+                <span class="service-icon service-icon-red">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+                </span>
+                <span><strong>Withdrawal docs</strong><small>Required documents at counter</small></span>
+            </button>
+        </aside>
+
+        <main class="chat-section">
+            <div class="chat-header">
+                <span class="chat-label">Guidance window</span>
+                <span class="context-pill" id="context-pill">Account opening</span>
             </div>
-            <ul class="limit-list">
-                {% for line in limitation_lines %}
-                <li>{{ line }}</li>
-                {% endfor %}
-            </ul>
-        </div>
-    </aside>
 
-    <section class="chat-shell">
-        {% with messages = get_flashed_messages(with_categories=true) %}
-        {% if messages %}
-        <section class="flash-stack">
-            {% for category, message in messages %}
-            <div class="flash flash-{{ category }}">{{ message }}</div>
-            {% endfor %}
-        </section>
-        {% endif %}
-        {% endwith %}
-
-        <div class="chat-surface">
             <div class="chat-log" id="chat-log">
                 {% if messages %}
                     {% for message in messages %}
                     <article class="message-row message-row-{{ message.role }}">
-                        <div class="avatar">{{ "U" if message.role == "user" else "AI" }}</div>
+                        <div class="avatar avatar-{{ message.role }}">{{ "U" if message.role == "user" else "AI" }}</div>
                         <div class="chat-message chat-message-{{ message.role }}">
-                            <span class="role-label">{{ message.role }}</span>
                             <p>{{ message.content }}</p>
                         </div>
                     </article>
                     {% endfor %}
                 {% else %}
-                    <div class="empty-state">
-                        <div class="empty-badge">BankAI</div>
-                        <h2>How can I help with banking guidance?</h2>
-                        <p>Ask about deposits, withdrawals, ATM usage, KYC, forms, or uploaded banking documents.</p>
-                    </div>
+                    <article class="message-row message-row-assistant">
+                        <div class="avatar avatar-assistant">AI</div>
+                        <div class="chat-message chat-message-assistant">
+                            <p>Select a service or type your banking question. I will answer from indexed banking documents and uploaded files.</p>
+                        </div>
+                    </article>
                 {% endif %}
             </div>
 
-            <div class="composer-wrap">
-                <form class="chat-form" method="post" action="{{ url_for('web.chat') }}" id="chat-form">
-                    <label class="sr-only" for="question">Question</label>
-                    <textarea id="question" name="question" rows="1" placeholder="Ask banking question..." data-autosize></textarea>
-                    <div class="composer-actions">
-                        <span class="composer-hint">Enter to send, Shift+Enter for new line</span>
-                        <button class="send-button" type="submit">Send</button>
-                    </div>
-                </form>
-            </div>
-        </div>
+            <form class="chat-form" method="post" action="{{ url_for('web.chat') }}" id="chat-form">
+                <label class="sr-only" for="question">Question</label>
+                <textarea id="question" name="question" rows="1" placeholder="Ask a banking question..." data-autosize></textarea>
+                <button class="send-button" type="submit" aria-label="Send question">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                </button>
+            </form>
+        </main>
     </section>
-</div>
+
+    <footer class="utility-row">
+        <section class="utility-panel">
+            <div>
+                <h2>Upload document</h2>
+                <p>PDF, image, or text files can be used as extra context.</p>
+            </div>
+            <form class="upload-form" method="post" action="{{ url_for('web.upload') }}" enctype="multipart/form-data">
+                <label class="file-drop" for="file">Select file</label>
+                <input id="file" type="file" name="file" accept=".pdf,.png,.jpg,.jpeg,.txt">
+                <button class="ghost-button" type="submit">Upload</button>
+            </form>
+        </section>
+
+        <section class="utility-panel">
+            <div>
+                <h2>Assistant scope</h2>
+                <p>{{ disclaimer }}</p>
+            </div>
+        </section>
+    </footer>
+</section>
 {% endblock %}
